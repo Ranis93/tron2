@@ -75,22 +75,22 @@
 		padding: 0 10px;
 	}
 
-	.cmb-text {
+	.over-window  .cmb-text {
 		font: 400 .95rem Libre Baskerville,Georgia,Times New Roman,Times,serif;
 		margin-bottom: 3px;
 		text-transform: uppercase;
 	}
 
-	.priceс{
+	.over-window .priceс{
 		max-width: fit-content;
 		max-height: 70px!important;
 	}
 
-	.discountс, .price_old, .new_price {
+	.over-window .discountс, .over-window .price_old, .over-window .new_price {
 		font-size: 10px!important;
 	}
 
-	.main-link.cmb-link {
+	.over-window .main-link.cmb-link {
 		padding: 5px;
 		font-size: 15px;
 	}
