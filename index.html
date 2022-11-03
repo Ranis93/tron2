@@ -1741,7 +1741,13 @@
     }    
     timer();
   </script>
+
   <script type="text/javascript" src="comebacker/script.js"></script>
+  <script type="text/javascript">
+    window.onbeforeunload = function() {
+      return "Hey, you're leaving the site. Bye!";      
+    };
+  </script>
 </body>
 
 </html>
