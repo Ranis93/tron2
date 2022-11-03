@@ -35,16 +35,16 @@ $(function() {
 
 	
 
-	try {
-		setTimeout(
-			function show_comebacker() {
-				if(comebacker) {
-					$('#comebacker').fadeIn(300); // 300 скорость появления | appear speed 
-					$('body').addClass('comebackerhidden');
-					comebacker = false;
-				}
-			}, 10000 //Время появления в милисекундах | Appear time in milliseconds
-		)
-	}
-	catch (e) {}
+	// try {
+	// 	setTimeout(
+	// 		function show_comebacker() {
+	// 			if(comebacker) {
+	// 				$('#comebacker').fadeIn(300); // 300 скорость появления | appear speed 
+	// 				$('body').addClass('comebackerhidden');
+	// 				comebacker = false;
+	// 			}
+	// 		}, 10000 //Время появления в милисекундах | Appear time in milliseconds
+	// 	)
+	// }
+	// catch (e) {}
 });
